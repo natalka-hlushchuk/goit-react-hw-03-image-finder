@@ -39,7 +39,7 @@ class App extends Component {
   }
 
   handelFormSubmit = photoName => {
-    this.setState({ photoName, page: 1 });
+    this.setState({ photoName, page: 1, photos: [] });
   };
   onClickModal = url => {
     this.setState({ largePhoto: url });
